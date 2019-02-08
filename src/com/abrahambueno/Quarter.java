@@ -10,7 +10,6 @@ public class Quarter extends AbstractTotal {
         this.total = value * quantity;
         this.quantity += quantity;
         this.lastQuantity = quantity;
-        totalSum += (double) value * quantity;
         printQuantity();
     }
     public Quarter() {
@@ -18,7 +17,6 @@ public class Quarter extends AbstractTotal {
         this.quantity += 1;
         this.lastQuantity = 1;
         printQuantity();
-        totalSum += (double) value * 1;
     }
 
 

@@ -13,7 +13,7 @@ public class Dime extends AbstractTotal {
         this.quantity += quantity;
         this.lastQuantity = quantity;
         printQuantity();
-        totalSum += (double) value * quantity;
+//        totalSum += (double) value * quantity;
 
     }
     public Dime() {
@@ -21,7 +21,7 @@ public class Dime extends AbstractTotal {
         this.quantity += 1;
         this.lastQuantity = 1;
         printQuantity();
-        totalSum += (double) value * 1;
+//        totalSum += (double) value * 1;
     }
 
     @Override
