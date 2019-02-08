@@ -12,12 +12,14 @@ public class Penny extends AbstractTotal {
         this.quantity += quantity;
         this.lastQuantity = quantity;
         printQuantity();
+        totalSum += (double) value * quantity;
     }
     public Penny() {
         this.total += value * 1;
         this.quantity += 1;
         this.lastQuantity = 1;
         printQuantity();
+        totalSum += (double) value * 1;
     }
 
     @Override

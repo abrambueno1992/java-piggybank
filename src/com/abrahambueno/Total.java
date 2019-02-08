@@ -1,6 +1,6 @@
 package com.abrahambueno;
 
 public interface Total {
-    void printQuantity();
+    void printSum();
 
 }
